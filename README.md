@@ -19,7 +19,7 @@ Max_Health_Potion = 3
 while boolean == True:
   
     comchoice = random.choice(choices)
-    print(comchoice)
+    #print(comchoice)
     time.sleep(2)
     print(f'You have {Small_Potion} Small Potions, {Medium_Potion} Medium Potions, {Big_Potion} Big Potions, {Max_Health_Potion} Max Health Potions left')
     print("Which ones would you like to use? ")
@@ -72,3 +72,4 @@ while boolean == True:
         print(f"Max Health Potions left: {Max_Health_Potion}")
     else:
         print("Invalid choice")
+        
